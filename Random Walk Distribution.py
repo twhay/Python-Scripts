@@ -40,6 +40,8 @@ np_aw_t = np.transpose(np_aw)
 plt.plot(np_aw_t)
 plt.show()
 
+# To clear a plot, use plt.clf()
+
 # Select last row from np_aw_t: ends
 ends = np_aw_t[-1]
 
